@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>I Love You — Porcinet</title>
+  <meta name="description" content="Three little words. An infinite story. The most intimate portrait of love ever captured on film." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+
+  <!-- Age Gate -->
+  <div class="age-gate" id="ageGate" style="display:none;">
+    <div class="age-gate-box">
+      <div class="age-gate-logo">Porcinet</div>
+      <div class="age-gate-badge">16+</div>
+      <h2>Age Verification</h2>
+      <p>This website contains mature romantic content intended for viewers aged 16 and above. Please confirm your age to continue.</p>
+      <div class="age-gate-actions">
+        <button class="btn btn-primary" id="ageConfirm">I am 16 or older</button>
+        <button class="btn btn-ghost" id="ageDeny">I am under 16</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="site-nav">
+    <a href="../index.html" class="nav-brand">
+      <div class="nav-brand-logo">P</div>
+      <span class="nav-brand-name">Porcinet</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../index.html#movies" class="active">Movies</a></li>
+      <li><a href="../index.html#about">About</a></li>
+      <li><a href="../index.html#movies" class="btn btn-primary" style="padding:0.45rem 1.2rem;border-radius:6px;">All Films</a></li>
+    </ul>
+  </nav>
+
+  <!-- Movie Hero -->
+  <section class="movie-hero">
+    <div class="movie-hero-bg">
+      <img src="https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=1600&q=80&fit=crop"
+           alt="I Love You" />
+    </div>
+    <div class="movie-hero-overlay"></div>
+    <div class="container">
+      <div class="movie-hero-content">
+        <span class="movie-label">2023 · Romance</span>
+        <h1>I Love You</h1>
+        <div class="movie-hero-meta">
+          <span>2023</span>
+          <span>108 min</span>
+          <span>Romance / Drama</span>
+          <span class="rating">★ 8.4</span>
+          <span>16+</span>
+        </div>
+        <p class="movie-hero-synopsis">
+          Three words that change everything. Set over a single transformative year, <em>I Love You</em> 
+          follows novelist Lena and musician Sébastien as they navigate the exhilarating and terrifying 
+          landscape of falling deeply in love — the raw vulnerability, the breathtaking joy, and the quiet 
+          moments that matter most.
+        </p>
+        <div class="movie-hero-actions">
+          <a href="#details" class="btn btn-primary">Film Details</a>
+          <a href="../index.html#movies" class="btn btn-outline">All Films</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Movie Details -->
+  <section class="movie-detail-section" id="details">
+    <div class="container">
+      <a href="../index.html#movies" class="back-link">Back to All Films</a>
+      <div class="movie-detail-grid">
+        <div class="movie-poster">
+          <img src="https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=600&q=80&fit=crop&crop=center"
+               alt="I Love You poster" />
+        </div>
+        <div>
+          <div class="movie-info-block">
+            <h3>Synopsis</h3>
+            <p>Novelist Lena has written about love for years without truly experiencing it. When she meets Sébastien at a rainy bookshop opening, something shifts. Their relationship unfolds in four seasons — each bringing its own tests of trust, desire, and what it truly means to say those three irreversible words.</p>
+            <p style="margin-top:0.75rem;">Intimate, lyrical, and deeply felt, <em>I Love You</em> is a film for anyone who has ever been brave enough to love with their whole heart.</p>
+          </div>
+
+          <div class="movie-info-block">
+            <h3>Film Information</h3>
+            <table class="info-table">
+              <tr><td>Director</td><td>Renaud Pelletier</td></tr>
+              <tr><td>Year</td><td>2023</td></tr>
+              <tr><td>Duration</td><td>108 minutes</td></tr>
+              <tr><td>Genre</td><td>Romance / Drama</td></tr>
+              <tr><td>Language</td><td>French</td></tr>
+              <tr><td>Country</td><td>France</td></tr>
+              <tr><td>Rating</td><td>16+</td></tr>
+            </table>
+          </div>
+
+          <div class="movie-info-block">
+            <h3>Starring</h3>
+            <p>Margot Tissot, Alexis Renard, Juliette Blanchard</p>
+          </div>
+
+          <div class="movie-info-block">
+            <h3>Themes</h3>
+            <div class="tag-list">
+              <span class="tag">Vulnerability</span>
+              <span class="tag">Music</span>
+              <span class="tag">Literature</span>
+              <span class="tag">Seasons of Love</span>
+              <span class="tag">Intimacy</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="movie-gallery">
+    <div class="container">
+      <h2>Gallery</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=800&q=75&fit=crop&crop=top"
+               alt="Romantic moment" loading="lazy" />
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1543525238-54e3d037d5b3?w=800&q=75&fit=crop&crop=center"
+               alt="Couple embracing" loading="lazy" />
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=800&q=75&fit=crop&crop=center"
+               alt="Tender moment" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Related Movies -->
+  <section class="related-movies">
+    <div class="container">
+      <div class="section-header" style="text-align:left;margin-bottom:2rem;">
+        <span class="section-label">More Films</span>
+        <h2>You May Also Like</h2>
+      </div>
+      <div class="movies-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr));">
+        <article class="movie-card">
+          <div class="movie-card-poster">
+            <img src="https://images.unsplash.com/photo-1529313780224-1a12b68bed16?w=600&q=80&fit=crop&crop=center"
+                 alt="You Are the Only One" loading="lazy" />
+            <div class="movie-card-overlay"></div>
+          </div>
+          <div class="movie-card-body">
+            <h3 class="movie-card-title">You Are the Only One</h3>
+            <a href="you-are-the-only-one.html" class="movie-card-link">Explore Film</a>
+          </div>
+        </article>
+        <article class="movie-card">
+          <div class="movie-card-poster">
+            <img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=600&q=80&fit=crop&crop=center"
+                 alt="Oh Baby" loading="lazy" />
+            <div class="movie-card-overlay"></div>
+          </div>
+          <div class="movie-card-body">
+            <h3 class="movie-card-title">Oh Baby</h3>
+            <a href="oh-baby.html" class="movie-card-link">Explore Film</a>
+          </div>
+        </article>
+        <article class="movie-card">
+          <div class="movie-card-poster">
+            <img src="https://images.unsplash.com/photo-1499856871958-5b9357976b82?w=600&q=80&fit=crop&crop=center"
+                 alt="Love in Paris" loading="lazy" />
+            <div class="movie-card-overlay"></div>
+          </div>
+          <div class="movie-card-body">
+            <h3 class="movie-card-title">Love in Paris</h3>
+            <a href="love-in-paris.html" class="movie-card-link">Explore Film</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="nav-brand">
+            <div class="nav-brand-logo">P</div>
+            <span class="nav-brand-name">Porcinet</span>
+          </div>
+          <p>Premium romantic cinema from France. Passionate stories of love and human connection, crafted for the screen.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Films</h4>
+          <ul>
+            <li><a href="love-me-on-the-beach.html">Love Me on the Beach</a></li>
+            <li><a href="love-in-paris.html">Love in Paris</a></li>
+            <li><a href="love-in-london.html">Love in London</a></li>
+            <li><a href="you-are-the-only-one.html">You Are the Only One</a></li>
+            <li><a href="i-love-you.html">I Love You</a></li>
+            <li><a href="oh-baby.html">Oh Baby</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="../index.html#about">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">porcinet.fr</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2024 Porcinet — porcinet.fr. All rights reserved.</span>
+        <span class="age-notice">&#9888; 16+ Content</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
