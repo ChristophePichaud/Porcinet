@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Porcinet — Romantic Cinema</title>
+  <meta name="description" content="Porcinet — Premium romantic film production. Discover our collection of passionate love stories." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Age Gate -->
+  <div class="age-gate" id="ageGate" style="display:none;">
+    <div class="age-gate-box">
+      <div class="age-gate-logo">Porcinet</div>
+      <div class="age-gate-badge">16+</div>
+      <h2>Age Verification</h2>
+      <p>This website contains mature romantic content intended for viewers aged 16 and above. Please confirm your age to continue.</p>
+      <div class="age-gate-actions">
+        <button class="btn btn-primary" id="ageConfirm">I am 16 or older</button>
+        <button class="btn btn-ghost" id="ageDeny">I am under 16</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="site-nav">
+    <a href="index.html" class="nav-brand">
+      <div class="nav-brand-logo">P</div>
+      <span class="nav-brand-name">Porcinet</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="#movies">Movies</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="index.html#movies" class="btn btn-primary" style="padding:0.45rem 1.2rem;border-radius:6px;">All Films</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Carousel -->
+  <section class="hero">
+    <div class="carousel">
+
+      <!-- Slide 1 — Love Me on the Beach -->
+      <div class="carousel-slide">
+        <img class="carousel-slide-img"
+             src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600&q=80&fit=crop"
+             alt="Love Me on the Beach" />
+        <div class="carousel-overlay"></div>
+        <div class="carousel-caption">
+          <span class="movie-label">Now Showing</span>
+          <h2>Love Me on the Beach</h2>
+          <p>Two strangers meet under the golden sun, and discover that love, like the ocean, knows no boundaries.</p>
+          <a href="movies/love-me-on-the-beach.html" class="btn btn-primary">View Film</a>
+          <a href="#movies" class="btn btn-outline">All Movies</a>
+        </div>
+      </div>
+
+      <!-- Slide 2 — Love in Paris -->
+      <div class="carousel-slide">
+        <img class="carousel-slide-img"
+             src="https://images.unsplash.com/photo-1499856871958-5b9357976b82?w=1600&q=80&fit=crop"
+             alt="Love in Paris" />
+        <div class="carousel-overlay"></div>
+        <div class="carousel-caption">
+          <span class="movie-label">Featured</span>
+          <h2>Love in Paris</h2>
+          <p>In the city of lights, passion ignites. A story of longing, desire, and second chances beneath the Eiffel Tower.</p>
+          <a href="movies/love-in-paris.html" class="btn btn-primary">View Film</a>
+          <a href="#movies" class="btn btn-outline">All Movies</a>
+        </div>
+      </div>
+
+      <!-- Slide 3 — Love in London -->
+      <div class="carousel-slide">
+        <img class="carousel-slide-img"
+             src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1600&q=80&fit=crop"
+             alt="Love in London" />
+        <div class="carousel-overlay"></div>
+        <div class="carousel-caption">
+          <span class="movie-label">Featured</span>
+          <h2>Love in London</h2>
+          <p>Across the Thames, two hearts find each other through the fog of London's mystical nights.</p>
+          <a href="movies/love-in-london.html" class="btn btn-primary">View Film</a>
+          <a href="#movies" class="btn btn-outline">All Movies</a>
+        </div>
+      </div>
+
+      <!-- Slide 4 — You Are the Only One -->
+      <div class="carousel-slide">
+        <img class="carousel-slide-img"
+             src="https://images.unsplash.com/photo-1529313780224-1a12b68bed16?w=1600&q=80&fit=crop"
+             alt="You Are the Only One" />
+        <div class="carousel-overlay"></div>
+        <div class="carousel-caption">
+          <span class="movie-label">New Release</span>
+          <h2>You Are the Only One</h2>
+          <p>A sweeping romance about devotion — when you have found your one, the whole world falls away.</p>
+          <a href="movies/you-are-the-only-one.html" class="btn btn-primary">View Film</a>
+          <a href="#movies" class="btn btn-outline">All Movies</a>
+        </div>
+      </div>
+
+      <!-- Slide 5 — I Love You -->
+      <div class="carousel-slide">
+        <img class="carousel-slide-img"
+             src="https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=1600&q=80&fit=crop"
+             alt="I Love You" />
+        <div class="carousel-overlay"></div>
+        <div class="carousel-caption">
+          <span class="movie-label">Classic</span>
+          <h2>I Love You</h2>
+          <p>Three little words. An infinite story. The most intimate portrait of love ever captured on film.</p>
+          <a href="movies/i-love-you.html" class="btn btn-primary">View Film</a>
+          <a href="#movies" class="btn btn-outline">All Movies</a>
+        </div>
+      </div>
+
+      <!-- Slide 6 — Oh Baby -->
+      <div class="carousel-slide">
+        <img class="carousel-slide-img"
+             src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=1600&q=80&fit=crop"
+             alt="Oh Baby" />
+        <div class="carousel-overlay"></div>
+        <div class="carousel-caption">
+          <span class="movie-label">New Release</span>
+          <h2>Oh Baby</h2>
+          <p>When unexpected romance blooms in unexpected places, life's greatest surprises become its greatest gifts.</p>
+          <a href="movies/oh-baby.html" class="btn btn-primary">View Film</a>
+          <a href="#movies" class="btn btn-outline">All Movies</a>
+        </div>
+      </div>
+
+      <!-- Arrows -->
+      <button class="carousel-arrow prev" aria-label="Previous slide">&#8249;</button>
+      <button class="carousel-arrow next" aria-label="Next slide">&#8250;</button>
+    </div>
+
+    <!-- Dots injected by JS -->
+    <div class="carousel-controls"></div>
+  </section>
+
+  <!-- Movies Section -->
+  <section class="section" id="movies">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Our Collection</span>
+        <h2>All Films</h2>
+        <p>Passionate stories of love, desire, and human connection — each film a world of its own.</p>
+      </div>
+
+      <div class="movies-grid">
+
+        <!-- Card 1 -->
+        <article class="movie-card">
+          <div class="movie-card-poster">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=80&fit=crop&crop=center"
+                 alt="Love Me on the Beach poster" loading="lazy" />
+            <div class="movie-card-overlay"></div>
+            <span class="movie-card-badge">2024</span>
+          </div>
+          <div class="movie-card-body">
+            <div class="movie-card-meta">
+              <span>Romance</span><span>104 min</span>
+            </div>
+            <h3 class="movie-card-title">Love Me on the Beach</h3>
+            <p class="movie-card-desc">Two strangers meet under the golden sun, discovering that love knows no boundaries — carried on every wave.</p>
+            <a href="movies/love-me-on-the-beach.html" class="movie-card-link">Explore Film</a>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="movie-card">
+          <div class="movie-card-poster">
+            <img src="https://images.unsplash.com/photo-1499856871958-5b9357976b82?w=600&q=80&fit=crop&crop=center"
+                 alt="Love in Paris poster" loading="lazy" />
+            <div class="movie-card-overlay"></div>
+            <span class="movie-card-badge">2024</span>
+          </div>
+          <div class="movie-card-body">
+            <div class="movie-card-meta">
+              <span>Romance</span><span>112 min</span>
+            </div>
+            <h3 class="movie-card-title">Love in Paris</h3>
+            <p class="movie-card-desc">In the city of lights, passion ignites. A story of longing and second chances beneath the Eiffel Tower.</p>
+            <a href="movies/love-in-paris.html" class="movie-card-link">Explore Film</a>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="movie-card">
+          <div class="movie-card-poster">
+            <img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=600&q=80&fit=crop&crop=center"
+                 alt="Love in London poster" loading="lazy" />
+            <div class="movie-card-overlay"></div>
+            <span class="movie-card-badge">2023</span>
+          </div>
+          <div class="movie-card-body">
+            <div class="movie-card-meta">
+              <span>Romance</span><span>98 min</span>
+            </div>
+            <h3 class="movie-card-title">Love in London</h3>
+            <p class="movie-card-desc">Across the Thames, two hearts find each other through the fog of London's mystical nights.</p>
+            <a href="movies/love-in-london.html" class="movie-card-link">Explore Film</a>
+          </div>
+        </article>
+
+        <!-- Card 4 -->
+        <article class="movie-card">
+          <div class="movie-card-poster">
+            <img src="https://images.unsplash.com/photo-1529313780224-1a12b68bed16?w=600&q=80&fit=crop&crop=center"
+                 alt="You Are the Only One poster" loading="lazy" />
+            <div class="movie-card-overlay"></div>
+            <span class="movie-card-badge">2024</span>
+          </div>
+          <div class="movie-card-body">
+            <div class="movie-card-meta">
+              <span>Romance</span><span>116 min</span>
+            </div>
+            <h3 class="movie-card-title">You Are the Only One</h3>
+            <p class="movie-card-desc">A sweeping romance about devotion — when you find your one true love, the whole world falls away.</p>
+            <a href="movies/you-are-the-only-one.html" class="movie-card-link">Explore Film</a>
+          </div>
+        </article>
+
+        <!-- Card 5 -->
+        <article class="movie-card">
+          <div class="movie-card-poster">
+            <img src="https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=600&q=80&fit=crop&crop=center"
+                 alt="I Love You poster" loading="lazy" />
+            <div class="movie-card-overlay"></div>
+            <span class="movie-card-badge">2023</span>
+          </div>
+          <div class="movie-card-body">
+            <div class="movie-card-meta">
+              <span>Romance</span><span>108 min</span>
+            </div>
+            <h3 class="movie-card-title">I Love You</h3>
+            <p class="movie-card-desc">Three little words. An infinite story. The most intimate portrait of love ever captured on film.</p>
+            <a href="movies/i-love-you.html" class="movie-card-link">Explore Film</a>
+          </div>
+        </article>
+
+        <!-- Card 6 -->
+        <article class="movie-card">
+          <div class="movie-card-poster">
+            <img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=600&q=80&fit=crop&crop=center"
+                 alt="Oh Baby poster" loading="lazy" />
+            <div class="movie-card-overlay"></div>
+            <span class="movie-card-badge">2024</span>
+          </div>
+          <div class="movie-card-body">
+            <div class="movie-card-meta">
+              <span>Romance</span><span>95 min</span>
+            </div>
+            <h3 class="movie-card-title">Oh Baby</h3>
+            <p class="movie-card-desc">When unexpected romance blooms in unexpected places, life's greatest surprises become its greatest gifts.</p>
+            <a href="movies/oh-baby.html" class="movie-card-link">Explore Film</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=800&q=80&fit=crop"
+               alt="Porcinet film set" loading="lazy" />
+        </div>
+        <div class="about-content">
+          <span class="section-label">Our Story</span>
+          <h2>Crafting Love Stories for the Screen</h2>
+          <p>Founded in the heart of France, Porcinet is a premium film production company dedicated to the art of romantic cinema. We believe every great love story deserves to be told with passion, authenticity, and beauty.</p>
+          <p>From sun-soaked beaches to the cobblestone streets of Paris and London, our films explore the full spectrum of human emotion — desire, tenderness, heartbreak, and joy.</p>
+          <p>Every frame is a poem. Every story, a gift.</p>
+          <a href="#movies" class="btn btn-primary">Discover Our Films</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="nav-brand">
+            <div class="nav-brand-logo">P</div>
+            <span class="nav-brand-name">Porcinet</span>
+          </div>
+          <p>Premium romantic cinema from France. Passionate stories of love and human connection, crafted for the screen.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Films</h4>
+          <ul>
+            <li><a href="movies/love-me-on-the-beach.html">Love Me on the Beach</a></li>
+            <li><a href="movies/love-in-paris.html">Love in Paris</a></li>
+            <li><a href="movies/love-in-london.html">Love in London</a></li>
+            <li><a href="movies/you-are-the-only-one.html">You Are the Only One</a></li>
+            <li><a href="movies/i-love-you.html">I Love You</a></li>
+            <li><a href="movies/oh-baby.html">Oh Baby</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">porcinet.fr</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2024 Porcinet — porcinet.fr. All rights reserved.</span>
+        <span class="age-notice">&#9888; 16+ Content</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

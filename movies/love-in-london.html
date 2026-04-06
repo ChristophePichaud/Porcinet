@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Love in London — Porcinet</title>
+  <meta name="description" content="Across the Thames, two hearts find each other through the fog of London's mystical nights." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+
+  <!-- Age Gate -->
+  <div class="age-gate" id="ageGate" style="display:none;">
+    <div class="age-gate-box">
+      <div class="age-gate-logo">Porcinet</div>
+      <div class="age-gate-badge">16+</div>
+      <h2>Age Verification</h2>
+      <p>This website contains mature romantic content intended for viewers aged 16 and above. Please confirm your age to continue.</p>
+      <div class="age-gate-actions">
+        <button class="btn btn-primary" id="ageConfirm">I am 16 or older</button>
+        <button class="btn btn-ghost" id="ageDeny">I am under 16</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="site-nav">
+    <a href="../index.html" class="nav-brand">
+      <div class="nav-brand-logo">P</div>
+      <span class="nav-brand-name">Porcinet</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../index.html#movies" class="active">Movies</a></li>
+      <li><a href="../index.html#about">About</a></li>
+      <li><a href="../index.html#movies" class="btn btn-primary" style="padding:0.45rem 1.2rem;border-radius:6px;">All Films</a></li>
+    </ul>
+  </nav>
+
+  <!-- Movie Hero -->
+  <section class="movie-hero">
+    <div class="movie-hero-bg">
+      <img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1600&q=80&fit=crop"
+           alt="Love in London" />
+    </div>
+    <div class="movie-hero-overlay"></div>
+    <div class="container">
+      <div class="movie-hero-content">
+        <span class="movie-label">2023 · Romance</span>
+        <h1>Love in London</h1>
+        <div class="movie-hero-meta">
+          <span>2023</span>
+          <span>98 min</span>
+          <span>Romance / Drama</span>
+          <span class="rating">★ 8.0</span>
+          <span>16+</span>
+        </div>
+        <p class="movie-hero-synopsis">
+          Amid London's grand architecture and misty mornings, French architect Élodie arrives for a six-month 
+          commission. She expects grey skies and professional distance — not the warm, sharp-witted James, 
+          her project collaborator. As they restore a Victorian townhouse together, they discover that hearts, 
+          like old buildings, can be beautifully rebuilt.
+        </p>
+        <div class="movie-hero-actions">
+          <a href="#details" class="btn btn-primary">Film Details</a>
+          <a href="../index.html#movies" class="btn btn-outline">All Films</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Movie Details -->
+  <section class="movie-detail-section" id="details">
+    <div class="container">
+      <a href="../index.html#movies" class="back-link">Back to All Films</a>
+      <div class="movie-detail-grid">
+        <div class="movie-poster">
+          <img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=600&q=80&fit=crop&crop=center"
+               alt="Love in London poster" />
+        </div>
+        <div>
+          <div class="movie-info-block">
+            <h3>Synopsis</h3>
+            <p>When Parisian architect Élodie accepts a challenging commission in London, she expects to focus entirely on her work. Instead, she meets James — dry-witted, brilliant, and annoyingly attractive — and they are assigned to restore a crumbling Victorian townhouse together. Sparks fly as freely as the plaster dust.</p>
+            <p style="margin-top:0.75rem;">Filmed across London's most iconic neighbourhoods, <em>Love in London</em> is a warmly romantic story about two very different people discovering that opposites don't just attract — they complete each other.</p>
+          </div>
+
+          <div class="movie-info-block">
+            <h3>Film Information</h3>
+            <table class="info-table">
+              <tr><td>Director</td><td>Claire Beaumont</td></tr>
+              <tr><td>Year</td><td>2023</td></tr>
+              <tr><td>Duration</td><td>98 minutes</td></tr>
+              <tr><td>Genre</td><td>Romance / Comedy Drama</td></tr>
+              <tr><td>Language</td><td>French, English</td></tr>
+              <tr><td>Country</td><td>France / United Kingdom</td></tr>
+              <tr><td>Rating</td><td>16+</td></tr>
+            </table>
+          </div>
+
+          <div class="movie-info-block">
+            <h3>Starring</h3>
+            <p>Audrey Lambert, Thomas Hartley, Florence Webb</p>
+          </div>
+
+          <div class="movie-info-block">
+            <h3>Themes</h3>
+            <div class="tag-list">
+              <span class="tag">London</span>
+              <span class="tag">Opposites Attract</span>
+              <span class="tag">Architecture</span>
+              <span class="tag">Cross-Cultural</span>
+              <span class="tag">Slow Burn</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="movie-gallery">
+    <div class="container">
+      <h2>Gallery</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800&q=75&fit=crop&crop=top"
+               alt="London bridge" loading="lazy" />
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1529180979161-06b8b6d6f2be?w=800&q=75&fit=crop&crop=center"
+               alt="London streets" loading="lazy" />
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1520986606214-8b456906c813?w=800&q=75&fit=crop&crop=center"
+               alt="London atmosphere" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Related Movies -->
+  <section class="related-movies">
+    <div class="container">
+      <div class="section-header" style="text-align:left;margin-bottom:2rem;">
+        <span class="section-label">More Films</span>
+        <h2>You May Also Like</h2>
+      </div>
+      <div class="movies-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr));">
+        <article class="movie-card">
+          <div class="movie-card-poster">
+            <img src="https://images.unsplash.com/photo-1499856871958-5b9357976b82?w=600&q=80&fit=crop&crop=center"
+                 alt="Love in Paris" loading="lazy" />
+            <div class="movie-card-overlay"></div>
+          </div>
+          <div class="movie-card-body">
+            <h3 class="movie-card-title">Love in Paris</h3>
+            <a href="love-in-paris.html" class="movie-card-link">Explore Film</a>
+          </div>
+        </article>
+        <article class="movie-card">
+          <div class="movie-card-poster">
+            <img src="https://images.unsplash.com/photo-1529313780224-1a12b68bed16?w=600&q=80&fit=crop&crop=center"
+                 alt="You Are the Only One" loading="lazy" />
+            <div class="movie-card-overlay"></div>
+          </div>
+          <div class="movie-card-body">
+            <h3 class="movie-card-title">You Are the Only One</h3>
+            <a href="you-are-the-only-one.html" class="movie-card-link">Explore Film</a>
+          </div>
+        </article>
+        <article class="movie-card">
+          <div class="movie-card-poster">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=80&fit=crop&crop=center"
+                 alt="Love Me on the Beach" loading="lazy" />
+            <div class="movie-card-overlay"></div>
+          </div>
+          <div class="movie-card-body">
+            <h3 class="movie-card-title">Love Me on the Beach</h3>
+            <a href="love-me-on-the-beach.html" class="movie-card-link">Explore Film</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="nav-brand">
+            <div class="nav-brand-logo">P</div>
+            <span class="nav-brand-name">Porcinet</span>
+          </div>
+          <p>Premium romantic cinema from France. Passionate stories of love and human connection, crafted for the screen.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Films</h4>
+          <ul>
+            <li><a href="love-me-on-the-beach.html">Love Me on the Beach</a></li>
+            <li><a href="love-in-paris.html">Love in Paris</a></li>
+            <li><a href="love-in-london.html">Love in London</a></li>
+            <li><a href="you-are-the-only-one.html">You Are the Only One</a></li>
+            <li><a href="i-love-you.html">I Love You</a></li>
+            <li><a href="oh-baby.html">Oh Baby</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="../index.html#about">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">porcinet.fr</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2024 Porcinet — porcinet.fr. All rights reserved.</span>
+        <span class="age-notice">&#9888; 16+ Content</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
